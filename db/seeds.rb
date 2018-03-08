@@ -17,6 +17,7 @@ books = []
       publisher: Faker::Book.publisher,
       publishedDate:Faker::Date.between(100.days.ago, Date.today),
       description: Faker::Lorem.sentence,
+      genre: [:Adventure, :SF, :Romance, :Classic, :Comedy, :Other].sample,
     }
     books.push(new_book)
 end

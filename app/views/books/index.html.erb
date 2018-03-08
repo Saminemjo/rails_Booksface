@@ -1,18 +1,23 @@
 <div class="panel panel-default">
   <table class="table">
+    <% @books.each do |book| %>
+
     <tr>
       <td class="middle">
         <div class="media">
           <div class="media-left">
             <a href="#">
-              <img class="media-object" src="http://placehold.it/100x100" alt="...">
+              <img class="media-object" src="<%= book.genre%>.png" alt="...">
             </a>
           </div>
           <div class="media-body">
-            <h4 class="media-heading">Book 1</h4>
+            <h4 class="media-heading"><%= book.title %></h4>
             <address>
-              <strong>Job</strong><br>
-              books1@sample.com
+              <strong>Author : <%= book.authors %></strong><br>
+              <strong>description : <%= book.description %></strong><br>
+              <strong>published date : <%= book.publishedDate %></strong><br>
+              <strong>genre : <%= book.genre %></strong><br>
+              <%= book.publisher %>
             </address>
           </div>
         </div>
@@ -28,33 +33,6 @@
         </div>
       </td>
     </tr>
-    <tr>
-      <td class="middle">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" src="http://placehold.it/100x100" alt="...">
-            </a>
-          </div>
-          <div class="media-body">
-            <h4 class="media-heading">Book 2</h4>
-            <address>
-              <strong>Job 2</strong><br>
-              books2@sample.com
-            </address>
-          </div>
-        </div>
-      </td>
-      <td width="100" class="middle">
-        <div>
-          <a href="#" class="btn btn-circle btn-default btn-xs" title="Edit">
-            <i class="glyphicon glyphicon-edit"></i>
-          </a>
-          <a href="#" class="btn btn-circle btn-danger btn-xs" title="Edit">
-            <i class="glyphicon glyphicon-remove"></i>
-          </a>
-        </div>
-      </td>
-    </tr>
+    <% end %>
   </table>
 </div>
