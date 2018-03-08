@@ -1,0 +1,918 @@
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:05:50 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /var/lib/gems/2.4.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 13ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:08:47 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /var/lib/gems/2.4.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb (8.0ms)
+Completed 200 OK in 14ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Books/index" for 127.0.0.1 at 2018-03-08 16:09:44 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/Books/index"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (0.9ms)
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.9ms)
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (7.7ms)
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.2ms)
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:10:13 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /var/lib/gems/2.4.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/railties-5.0.6/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 14ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Books/index" for 127.0.0.1 at 2018-03-08 16:10:25 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/Books/index"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered collection of /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb [1 times] (1.1ms)
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (36.9ms)
+Started GET "/books/index" for 127.0.0.1 at 2018-03-08 16:10:54 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 2060ms (Views: 2055.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/index" for 127.0.0.1 at 2018-03-08 16:12:57 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:13:07 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 67ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:18:13 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 2160ms (Views: 2148.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:19:29 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:19:31 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:20:21 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 158ms (Views: 149.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:20:35 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:22:56 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1297ms (Views: 1290.8ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:23:07 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 205ms (Views: 193.3ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/brand/bootstrap-solid.svg"):
+  
+actionpack (5.0.6) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.6) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.6) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.6) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:23:58 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 48ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:24:13 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 176ms (Views: 167.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:24:17 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:27:07 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:27:10 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3904ms (Views: 3903.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 2236ms (Views: 2234.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:28:31 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 46ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:28:34 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 96ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:28:36 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 110ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:28:37 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:28:38 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 81ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:30:39 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:35:18 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 59ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:35:40 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:38:16 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:38:19 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 56ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:38:38 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 70ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:39:07 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:39:58 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 38.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:40:39 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 75ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:41:46 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:42:05 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:42:30 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:48:40 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:48:55 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 103ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:48:56 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:49:57 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 2004ms (Views: 2001.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:54:18 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/mana/projets/rubyApp/app/assets/config
+  /home/mana/projets/rubyApp/app/assets/images
+  /home/mana/projets/rubyApp/app/assets/javascripts
+  /home/mana/projets/rubyApp/app/assets/stylesheets
+  /home/mana/projets/rubyApp/vendor/assets/javascripts
+  /home/mana/projets/rubyApp/vendor/assets/stylesheets
+  /var/lib/gems/2.4.0/gems/jquery-rails-4.3.1/vendor/assets/javascripts
+  /var/lib/gems/2.4.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /var/lib/gems/2.4.0/gems/actioncable-5.0.6/lib/assets/compiled
+  /var/lib/gems/2.4.0/gems/turbolinks-source-5.1.0/lib/assets/javascripts
+  /var/lib/gems/2.4.0/gems/popper_js-1.12.9/assets/javascripts
+  /var/lib/gems/2.4.0/gems/bootstrap-4.0.0/assets/stylesheets
+  /var/lib/gems/2.4.0/gems/bootstrap-4.0.0/assets/javascripts
+  /var/lib/gems/2.4.0/gems/bootstrap-4.0.0/assets/stylesheets):
+    4:     <title>RubyApp</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1546356033682580470_70192060725000'
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (11.4ms)
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /var/lib/gems/2.4.0/gems/actionpack-5.0.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.9ms)
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:54:56 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2856ms (Views: 2848.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:55:39 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:56:11 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 26.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:58:11 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:58:23 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 91ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 16:58:24 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 75ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (96.7ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (94.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateBooks (20180308160305)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "authors" varchar, "title" varchar, "publishedDate" varchar, "description" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180308160305"]]
+  [1m[35m (84.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-03-08 16:03:40.073350"], ["updated_at", "2018-03-08 16:03:40.073350"]]
+  [1m[35m (53.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2018-03-08 17:21:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 224ms (Views: 215.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 0], ["authors", "Joshuah Stracke"], ["title", "An Evil Cradling"], ["publishedDate", "Hachette Book Group USA"], ["description", "Consequatur quod atque omnis."], ["created_at", "2018-03-08 16:22:14.054158"], ["updated_at", "2018-03-08 16:22:14.054158"]]
+  [1m[35m (82.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["authors", "Buster Frami"], ["title", "Of Human Bondage"], ["publishedDate", "Del Rey Books"], ["description", "Et temporibus ducimus id."], ["created_at", "2018-03-08 16:22:14.139413"], ["updated_at", "2018-03-08 16:22:14.139413"]]
+  [1m[35m (87.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 2], ["authors", "Harmon Brakus"], ["title", "The Lathe of Heaven"], ["publishedDate", "Bison Books"], ["description", "Perspiciatis eveniet sunt a qui vel omnis."], ["created_at", "2018-03-08 16:22:14.228601"], ["updated_at", "2018-03-08 16:22:14.228601"]]
+  [1m[35m (87.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 3], ["authors", "Makayla Windler"], ["title", "Nine Coaches Waiting"], ["publishedDate", "University of California Press"], ["description", "Ea sint doloremque ducimus et non sunt."], ["created_at", "2018-03-08 16:22:14.318096"], ["updated_at", "2018-03-08 16:22:14.318096"]]
+  [1m[35m (87.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 4], ["authors", "Herbert Harvey DDS"], ["title", "From Here to Eternity"], ["publishedDate", "Eerdmans Publishing"], ["description", "Qui ipsam autem aut odit in."], ["created_at", "2018-03-08 16:22:14.407783"], ["updated_at", "2018-03-08 16:22:14.407783"]]
+  [1m[35m (85.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 5], ["authors", "Mr. Shirley Hilll"], ["title", "The Mirror Crack'd from Side to Side"], ["publishedDate", "Bloomsbury Publishing Plc"], ["description", "Eligendi ab vero quam maxime voluptate facilis consequatur."], ["created_at", "2018-03-08 16:22:14.497847"], ["updated_at", "2018-03-08 16:22:14.497847"]]
+  [1m[35m (75.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 6], ["authors", "Audie Turcotte"], ["title", "Fair Stood the Wind for France"], ["publishedDate", "Signet Books"], ["description", "Voluptates natus et dolorem vero sed exercitationem qui."], ["created_at", "2018-03-08 16:22:14.579506"], ["updated_at", "2018-03-08 16:22:14.579506"]]
+  [1m[35m (99.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 7], ["authors", "Preston Bernier MD"], ["title", "Ring of Bright Water"], ["publishedDate", "New Village Press"], ["description", "Libero vero itaque eum."], ["created_at", "2018-03-08 16:22:14.682881"], ["updated_at", "2018-03-08 16:22:14.682881"]]
+  [1m[35m (106.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 8], ["authors", "Samir Thiel"], ["title", "Gone with the Wind"], ["publishedDate", "Atheneum Books"], ["description", "Incidunt dolorem qui rerum ea."], ["created_at", "2018-03-08 16:22:14.793361"], ["updated_at", "2018-03-08 16:22:14.793361"]]
+  [1m[35m (88.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 9], ["authors", "Francesco Klocko Sr."], ["title", "The Mermaids Singing"], ["publishedDate", "Haynes Manuals"], ["description", "Voluptatem beatae laboriosam quo sunt."], ["created_at", "2018-03-08 16:22:14.888905"], ["updated_at", "2018-03-08 16:22:14.888905"]]
+  [1m[35m (89.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 10], ["authors", "Davion Barton"], ["title", "The Last Enemy"], ["publishedDate", "Manchester University Press"], ["description", "Illum voluptatem dolorum nesciunt."], ["created_at", "2018-03-08 16:22:14.982505"], ["updated_at", "2018-03-08 16:22:14.982505"]]
+  [1m[35m (88.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 11], ["authors", "Dr. Katheryn Berge"], ["title", "An Instant In The Wind"], ["publishedDate", "Bellevue Literary Press"], ["description", "Porro cum velit at maiores."], ["created_at", "2018-03-08 16:22:15.079743"], ["updated_at", "2018-03-08 16:22:15.079743"]]
+  [1m[35m (88.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 12], ["authors", "Trevion Morissette"], ["title", "The Moving Finger"], ["publishedDate", "Harvard University Press"], ["description", "Nihil ut ipsa vel sed."], ["created_at", "2018-03-08 16:22:15.178084"], ["updated_at", "2018-03-08 16:22:15.178084"]]
+  [1m[35m (118.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 13], ["authors", "Oran Casper"], ["title", "The Torment of Others"], ["publishedDate", "Lion Hudson"], ["description", "Ut fuga ipsam temporibus vitae quia explicabo totam."], ["created_at", "2018-03-08 16:22:15.300125"], ["updated_at", "2018-03-08 16:22:15.300125"]]
+  [1m[35m (92.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 14], ["authors", "Bethel Dickinson PhD"], ["title", "As I Lay Dying"], ["publishedDate", "J. M. Dent"], ["description", "Minima enim quia in."], ["created_at", "2018-03-08 16:22:15.397614"], ["updated_at", "2018-03-08 16:22:15.397614"]]
+  [1m[35m (87.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 15], ["authors", "Roscoe Dietrich"], ["title", "Ah, Wilderness!"], ["publishedDate", "No Starch Press"], ["description", "Quia dolorem voluptas est et dolor nam quisquam."], ["created_at", "2018-03-08 16:22:15.486504"], ["updated_at", "2018-03-08 16:22:15.486504"]]
+  [1m[35m (99.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 16], ["authors", "Ricky Kuvalis"], ["title", "A Passage to India"], ["publishedDate", "Hay House"], ["description", "Itaque animi est aut."], ["created_at", "2018-03-08 16:22:15.591064"], ["updated_at", "2018-03-08 16:22:15.591064"]]
+  [1m[35m (101.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 17], ["authors", "Miracle Osinski DDS"], ["title", "Time of our Darkness"], ["publishedDate", "Eel Pie Publishing"], ["description", "Vero vel ex ad."], ["created_at", "2018-03-08 16:22:15.698804"], ["updated_at", "2018-03-08 16:22:15.698804"]]
+  [1m[35m (116.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 18], ["authors", "Winnifred Greenfelder"], ["title", "Brandy of the Damned"], ["publishedDate", "Simon & Schuster"], ["description", "Est odio ex perferendis fugiat sit explicabo dolorem."], ["created_at", "2018-03-08 16:22:15.823558"], ["updated_at", "2018-03-08 16:22:15.823558"]]
+  [1m[35m (103.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["id", 19], ["authors", "Alec Ferry I"], ["title", "Recalled to Life"], ["publishedDate", "Harlequin Enterprises Ltd"], ["description", "Sunt qui quia est voluptatum velit ipsa qui sit."], ["created_at", "2018-03-08 16:22:15.933744"], ["updated_at", "2018-03-08 16:22:15.933744"]]
+  [1m[35m (80.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" ORDER BY "books"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.2ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 0]]
+  [1m[35m (93.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 1]]
+  [1m[35m (81.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 2]]
+  [1m[35m (100.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 3]]
+  [1m[35m (93.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 4]]
+  [1m[35m (64.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 5]]
+  [1m[35m (94.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 6]]
+  [1m[35m (83.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 7]]
+  [1m[35m (89.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 8]]
+  [1m[35m (101.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 9]]
+  [1m[35m (144.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 10]]
+  [1m[35m (87.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 11]]
+  [1m[35m (97.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 12]]
+  [1m[35m (103.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 13]]
+  [1m[35m (100.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 14]]
+  [1m[35m (101.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 15]]
+  [1m[35m (68.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 16]]
+  [1m[35m (60.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 17]]
+  [1m[35m (72.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 18]]
+  [1m[35m (82.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "books" WHERE "books"."id" = ?[0m  [["id", 19]]
+  [1m[35m (68.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPusblisherToBooks (20180308163146)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "books" ADD "publisher" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180308163146"]]
+  [1m[35m (110.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT  "books".* FROM "books" ORDER BY "books"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mBook Load (0.1ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 0], ["authors", "Dr. Mckayla Witting"], ["title", "Paths of Glory"], ["publishedDate", "2017-12-28"], ["description", "Ea quasi quia qui vel laboriosam aut."], ["created_at", "2018-03-08 16:32:22.693913"], ["updated_at", "2018-03-08 16:32:22.693913"], ["publisher", "Pecan Grove Press"]]
+  [1m[35m (84.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 1], ["authors", "Olga Kessler"], ["title", "Such, Such Were the Joys"], ["publishedDate", "2018-02-24"], ["description", "Asperiores soluta omnis doloremque architecto aut libero id aut."], ["created_at", "2018-03-08 16:32:22.782171"], ["updated_at", "2018-03-08 16:32:22.782171"], ["publisher", "Candlewick Press"]]
+  [1m[35m (93.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 2], ["authors", "Ulices Hessel DDS"], ["title", "Recalled to Life"], ["publishedDate", "2018-02-01"], ["description", "Sequi sunt architecto magnam qui sed eveniet iste."], ["created_at", "2018-03-08 16:32:22.879401"], ["updated_at", "2018-03-08 16:32:22.879401"], ["publisher", "Harvard University Press"]]
+  [1m[35m (86.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 3], ["authors", "Dr. Raul Von"], ["title", "His Dark Materials"], ["publishedDate", "2018-01-04"], ["description", "Amet in adipisci laboriosam tempora ut dolorem aut."], ["created_at", "2018-03-08 16:32:22.972450"], ["updated_at", "2018-03-08 16:32:22.972450"], ["publisher", "Blackwell Publishing"]]
+  [1m[35m (81.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 4], ["authors", "Ally Swaniawski Jr."], ["title", "Taming a Sea Horse"], ["publishedDate", "2017-11-30"], ["description", "Non blanditiis dolorum explicabo exercitationem."], ["created_at", "2018-03-08 16:32:23.058432"], ["updated_at", "2018-03-08 16:32:23.058432"], ["publisher", "Blue Ribbon Books"]]
+  [1m[35m (88.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 5], ["authors", "Jermain Willms"], ["title", "I Will Fear No Evil"], ["publishedDate", "2017-12-07"], ["description", "Est repudiandae id quis dolorem."], ["created_at", "2018-03-08 16:32:23.151900"], ["updated_at", "2018-03-08 16:32:23.151900"], ["publisher", "Canongate Books"]]
+  [1m[35m (103.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 6], ["authors", "Orlando Wolff"], ["title", "Frequent Hearses"], ["publishedDate", "2018-03-07"], ["description", "Perspiciatis consectetur sequi cum voluptatum."], ["created_at", "2018-03-08 16:32:23.260773"], ["updated_at", "2018-03-08 16:32:23.260773"], ["publisher", "Berg Publishers"]]
+  [1m[35m (104.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 7], ["authors", "Jamar McDermott"], ["title", "Blood's a Rover"], ["publishedDate", "2018-01-16"], ["description", "Necessitatibus in repudiandae eveniet."], ["created_at", "2018-03-08 16:32:23.370024"], ["updated_at", "2018-03-08 16:32:23.370024"], ["publisher", "New Village Press"]]
+  [1m[35m (76.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 8], ["authors", "Nico Langosh V"], ["title", "Tirra Lirra by the River"], ["publishedDate", "2018-02-27"], ["description", "Iure numquam quo neque impedit sed."], ["created_at", "2018-03-08 16:32:23.451086"], ["updated_at", "2018-03-08 16:32:23.451086"], ["publisher", "G. P. Putnam's Sons"]]
+  [1m[35m (97.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 9], ["authors", "Louisa Kshlerin"], ["title", "Time To Murder And Create"], ["publishedDate", "2017-12-25"], ["description", "Minima cupiditate magni eius aut aliquam soluta et."], ["created_at", "2018-03-08 16:32:23.554879"], ["updated_at", "2018-03-08 16:32:23.554879"], ["publisher", "University of Michigan Press"]]
+  [1m[35m (83.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.0ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 10], ["authors", "Destiney Ward"], ["title", "Dulce et Decorum Est"], ["publishedDate", "2017-12-16"], ["description", "Excepturi ut voluptatem cum."], ["created_at", "2018-03-08 16:32:23.648092"], ["updated_at", "2018-03-08 16:32:23.648092"], ["publisher", "University of Minnesota Press"]]
+  [1m[35m (70.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 11], ["authors", "Kayla Thompson"], ["title", "Ring of Bright Water"], ["publishedDate", "2017-12-12"], ["description", "Tempore a qui nulla voluptatibus."], ["created_at", "2018-03-08 16:32:23.728000"], ["updated_at", "2018-03-08 16:32:23.728000"], ["publisher", "Sidgwick & Jackson"]]
+  [1m[35m (61.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 12], ["authors", "Meredith Cole"], ["title", "What's Become of Waring"], ["publishedDate", "2018-02-18"], ["description", "Tempore aut rerum dolores voluptatem quod."], ["created_at", "2018-03-08 16:32:23.792807"], ["updated_at", "2018-03-08 16:32:23.792807"], ["publisher", "D. Appleton & Company"]]
+  [1m[35m (92.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 13], ["authors", "Christophe Tillman"], ["title", "An Evil Cradling"], ["publishedDate", "2017-12-09"], ["description", "Dolorem corporis voluptas voluptatibus suscipit."], ["created_at", "2018-03-08 16:32:23.890282"], ["updated_at", "2018-03-08 16:32:23.890282"], ["publisher", "Hodder Headline"]]
+  [1m[35m (143.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 14], ["authors", "Esta Bruen"], ["title", "The Sun Also Rises"], ["publishedDate", "2018-01-03"], ["description", "Nobis iure est pariatur alias animi."], ["created_at", "2018-03-08 16:32:24.039314"], ["updated_at", "2018-03-08 16:32:24.039314"], ["publisher", "Applewood Books"]]
+  [1m[35m (70.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 15], ["authors", "Kay Dooley"], ["title", "The Last Temptation"], ["publishedDate", "2017-12-08"], ["description", "Velit voluptatibus accusantium delectus quasi maiores consectetur."], ["created_at", "2018-03-08 16:32:24.115807"], ["updated_at", "2018-03-08 16:32:24.115807"], ["publisher", "Vintage Books at Random House"]]
+  [1m[35m (66.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 16], ["authors", "Sherman Veum"], ["title", "Unweaving the Rainbow"], ["publishedDate", "2017-12-27"], ["description", "Vitae rerum sit qui officiis qui corporis accusamus minima."], ["created_at", "2018-03-08 16:32:24.186086"], ["updated_at", "2018-03-08 16:32:24.186086"], ["publisher", "University of Minnesota Press"]]
+  [1m[35m (96.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 17], ["authors", "Julia Harvey"], ["title", "The Torment of Others"], ["publishedDate", "2018-01-01"], ["description", "Minus veniam in possimus et ad nisi dolores eius."], ["created_at", "2018-03-08 16:32:24.291538"], ["updated_at", "2018-03-08 16:32:24.291538"], ["publisher", "Eerdmans Publishing"]]
+  [1m[35m (103.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 18], ["authors", "Miss Ramon Price"], ["title", "The Cricket on the Hearth"], ["publishedDate", "2018-01-20"], ["description", "In aperiam cupiditate numquam est tempore itaque."], ["created_at", "2018-03-08 16:32:24.402609"], ["updated_at", "2018-03-08 16:32:24.402609"], ["publisher", "Palgrave Macmillan"]]
+  [1m[35m (103.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "books" ("id", "authors", "title", "publishedDate", "description", "created_at", "updated_at", "publisher") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["id", 19], ["authors", "Marcelino Satterfield"], ["title", "The Grapes of Wrath"], ["publishedDate", "2018-01-30"], ["description", "Qui eius doloremque quaerat qui."], ["created_at", "2018-03-08 16:32:24.513675"], ["updated_at", "2018-03-08 16:32:24.513675"], ["publisher", "Berkley Books"]]
+  [1m[35m (129.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" ORDER BY "books"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2018-03-08 17:33:13 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 209ms (Views: 200.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 17:37:52 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 39ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 17:43:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 217ms (Views: 207.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 17:43:48 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 30ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-08 17:44:34 +0100
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  Rendered books/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
